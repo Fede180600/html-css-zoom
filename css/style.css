@@ -10,10 +10,11 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* HEADER */
 header {
     position: relative;
     width: 100%;
-    height: 70px;
+    height: 80px;
     background-color: black;
 }
 
@@ -30,16 +31,44 @@ header {
 }
 
 .btn-header {
-    background-color: gray;
+    background-color: rgb(151, 151, 151);
     padding: .2rem .2rem;
     border-radius: 5px;
 }
+/* /HEADER */
 
+/* MAIN */
 main {
     width: 100%;
-    height: calc(100vh - 170px);
-    background-color: darkkhaki;
+    height: calc(100vh - 180px);
+    background-color: black;
+    padding-bottom: 1.5rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.user-box {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    /* border: 1px solid white; */
+    margin: 0 .2% .6% 0;
+}
+
+.user-btn {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    padding: .2rem .3rem;
+    background-color: rgba(54, 54, 54, 0.4);
+    color: white;
+
+}
+/* /MAIN */
+
 
 footer {
     width: 100%;
